@@ -62,3 +62,124 @@
   border-radius: 8px;
   border: none;
 }
+/* Pillar */
+.pillar{
+  margin-top: 20px;
+  margin: 0px 160px;
+  padding: 117px 0px;
+}
+.pillar-content{
+  display: flex;
+  gap: 24px;
+}
+.pillar-heading{
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.pillar-card{
+  background-color: white;
+  width: 302px;
+  height:244px;
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+}
+.pillar-card-h3{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.pillar-card-para{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Vision */
+.vision{
+  margin-top: 80px;
+  margin: 0px 160px;
+}
+.vision-heading{
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.vision-para{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.vision-card-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+}
+.vision-card{
+  padding: 24px;
+  margin-bottom: 32px;
+  width: 410.67px;
+  height: 325px;
+}
+#yellow{
+  background-color: rgb(247, 235, 207);
+  border-radius: 16px;
+}
+#green{
+  background-color: rgb(198, 228, 214);
+  border-radius: 16px;
+}
+#blue{
+  background-color: rgba(84, 144, 	245, 0.2);
+  border-radius: 16px;
+}
+.vision-card-h3{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 12px 0px;
+}
+.vision-card-para{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+.vision-card-btn-1{
+  border: none;
+  width: 122px;
+  height: 41px;
+  padding: 11px 20px 11px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 8px;
+  background-color: rgb(84, 144, 245);
+}
+.vision-card-btn-2{
+  border: none;
+  width: 122px;
+  height: 41px;
+  padding: 11px 20px 11px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 8px;
+  background-color: rgb(9, 161, 92);
+}
+.vision-card-btn-3{
+  border: none;
+  width: 122px;
+  height: 41px;
+  padding: 11px 20px 11px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 8px;
+  background-color: rgb(255, 194, 57);
+}
