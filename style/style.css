@@ -236,13 +236,49 @@
 }
 .news-headline{
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  padding: 48px;
   margin: 24px 0px;
   background-color: white;
   border-radius: 24px;
+  padding: 48px;
+}
+.news-image> img{
+  border-radius: 24px;
+  /* margin-left: 32px; */
+  margin: 0px 32px;
+}
+.news-inner-content{
+  margin-left: 32px;
+}
+.news-inner-content-h3{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: bold;
 }
 .aljazeera{
-  border-radius: 24px;
+  margin: 12px 0px;
+}
+.date-time{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.inner-content-text{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.news-content-btn{
+  /* width: 139px;
+  height: 48px; */
+  padding: 13px 26px 13px 26px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(0, 106,80);
 }
