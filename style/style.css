@@ -26,6 +26,12 @@
   border: 1px solid rgb(0, 106,80);
   border-radius: 8px;
 }
+.sign-in-btn:hover{
+  border: none;
+  color: white;
+  background-color: rgb(0, 106,80);
+
+}
 /* Banner */
 .banner{
   margin-top: 20px;
@@ -61,6 +67,11 @@
   background-color: rgb(0, 106,80);
   border-radius: 8px;
   border: none;
+}
+.banner-btn:hover{
+  color: rgb(14, 14, 14);
+  background-color: white;
+  border: 1px solid rgb(0, 106,80);
 }
 /* Pillar */
 .pillar{
@@ -154,34 +165,67 @@
   border: none;
   width: 122px;
   height: 41px;
-  padding: 11px 20px 11px 20px;
+  /* padding: 11px 20px 11px 20px; */
   color: white;
   font-size: 16px;
   font-weight: 600px;
   border-radius: 8px;
   background-color: rgb(84, 144, 245);
 }
+.vision-card-btn-1:hover{
+  color: rgb(14, 14, 14);
+  width: 122px;
+  height: 41px;
+  background-color: white;
+  border: 1px solid rgb(84, 144, 245);
+  /* padding: 11px 20px 11px 20px; */
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 8px;
+}
 .vision-card-btn-2{
   border: none;
   width: 122px;
   height: 41px;
-  padding: 11px 20px 11px 20px;
+  /* padding: 11px 20px 11px 20px; */
   color: white;
   font-size: 16px;
   font-weight: 600px;
   border-radius: 8px;
   background-color: rgb(9, 161, 92);
 }
+.vision-card-btn-2:hover{
+  color: rgb(14, 14, 14);
+  width: 122px;
+  height: 41px;
+  background-color: white;
+  border: 1px solid rgb(9, 161, 92);
+  /* padding: 11px 20px 11px 20px; */
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 8px;
+}
 .vision-card-btn-3{
   border: none;
   width: 122px;
   height: 41px;
-  padding: 11px 20px 11px 20px;
+  /* padding: 11px 20px 11px 20px; */
   color: white;
   font-size: 16px;
   font-weight: 600px;
   border-radius: 8px;
   background-color: rgb(255, 194, 57);
+}
+.vision-card-btn-3:hover{
+  color: rgb(14, 14, 14);
+  width: 122px;
+  height: 41px;
+  background-color: white;
+  border: 1px solid rgb(255, 194, 57);
+  /* padding: 11px 20px 11px 20px; */
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 8px;
 }
 .yunus-quote{
   position: relative;
@@ -282,6 +326,11 @@
   color: white;
   background-color: rgb(0, 106,80);
 }
+.news-content-btn:hover{
+  color: rgb(14, 14, 14);
+  background-color: white;
+  border: 1px solid rgb(0, 106,80);
+}
 /* Donate Section */
 .donate{
   margin: 80px 0px;
@@ -317,6 +366,9 @@
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
 }
+.donation-amount-box:hover{
+  background-color: rgb(198, 228, 214)
+}
 .donation-amount{
   font-size: 40px;
   font-weight: bold;
@@ -340,4 +392,92 @@
   font-weight: 600;
   color: white;
   background-color: rgb(0, 106,80);
+}
+.donation-btn:hover{
+  color: rgb(14, 14, 14);
+  background-color: white;
+  border: 1px solid rgb(0, 106,80);
+}
+/* Newsletter */
+.newsletter{
+  margin: 80px 160px;
+  /* margin: 0px 160px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+  background-color: rgb(198, 228, 214);
+  border-radius: 24px;
+}
+.newsletter-heading{
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.newsletter-para{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 329px;
+  text-align: center;
+}
+.input-button{
+  display: flex;
+  gap: 0px;
+}
+.input-email-box{
+  margin-top: 24px;
+  width: 600px;
+  padding: 18px 40px 18px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+.subscribe-btn{
+  margin-top: 24px;
+  padding: 17px 34px 17px 34px;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(0, 106,80);
+}
+.subscribe-btn:hover{
+  color: rgb(14, 14, 14);
+  background-color: white;
+  border: 1px solid rgb(0, 106,80);
+}
+.no-spam{
+  margin: 24px 0px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400px;
+}
+/* footer Section */
+.footer{
+  margin: 80px 160px;  
+}
+.footer-heading{
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+hr{
+  color: rgba(14, 14, 14, 0.3);
+}
+.social{
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:23px
 }
